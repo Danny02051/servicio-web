@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head runat="server"> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Carousel Template for Bootstrap</title>
+    <asp:ContetentPlaceHolder ID="head" runat ="server">
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="css/carrusel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Gamers</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="juegos.html">Juegos</a></li>
+                <li><a href="realidad.html">RA</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="registrar.php">Login</a></li>
+                <li><a href="acerca.html">Acerca de...</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="img/ra.png" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        
+    </div><!-- /.carousel -->
+    </asp:ContetentPlaceHolder>
+
+
+    <style type="text/css">
+  body { background-image: url(img/canicas.jpg);
+      background-size: 130vw 130vh;
+      input {border: 5px solid red; 
+    padding: 0; 
+    margin: 0;
+    color: white;
+
+    </style>
+
+
+<hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">BIENVENIDO A LA <span class="text-muted">REALIDAD AUMENTADA</span></h2>
+          <p class="lead">Intrucciones:</p>
+          <p class="lead">*Descargar la aplicacion (Encesta (pw by Orange)) en tu dispositivo movil, debe contar con el sistema operativo android para poder funcionar.</p>
+          <p class="lead">https://play.google.com/store/apps/details?id=com.orange.encesta&hl=es</p>
+          <p class="lead">*Instala la aplicacion e iniciala, te pedira escanear una imagen, para esto tendras que dar clicl en el siguiente boton. </p>
+          <p class="lead">*Listo pasa un rato agradable</p>
+          <p class="lead">Diviertete.......</p>
+        </div>
+        <div class="col-md-5">
+          <br><img src="img/ra.gif"  alt="Generic placeholder image" width="80%" height="80%">
+        
+       <hr class="featurette-divider">
+<form action="https://labarradelblueparrot.files.wordpress.com/2012/06/encesta.jpg">
+    <input type=submit value="Obtener Imagen" etc etc...>
+</form> 
+</div>
+      </div>
